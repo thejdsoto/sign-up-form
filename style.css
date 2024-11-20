@@ -61,8 +61,36 @@ body {
 
 .right-side {
     background-color: #F9FAFB;
+    font-family: "Roboto", serif;
 }
 
-form {
-    background-color: #FFFFFF;
-}
+    .hero {
+        padding: 64px 24px;
+    }
+
+    form {
+        background-color: #FFFFFF;
+    }
+
+        form fieldset {
+            border: none;
+            padding: 24px;
+        }
+
+            .field-container {
+                display: flex;
+            }
+
+                .field {
+                    padding-top: 12px;
+                    padding-right: 24px;
+                    margin-right: 24px;
+                }
+
+                    label {
+                        display: block;
+                    }
+
+    .bottom {
+        padding: 24px;
+    }
