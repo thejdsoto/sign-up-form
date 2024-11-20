@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #0E0E0E;
+}
+
+@font-face {
+    font-family: "Norse Bold";
+    src: url("https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf");
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("/home/jade/repos/sign-up-form/media/halie-west-25xggax4bSA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 70%;
+    text-align: center;
+}
+
+    .logo h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15%;
+        width: 100%;
+        margin-top: 160px;
+        padding: 12px 0px;
+        font-family: "Norse Bold";
+        font-size: 100px;
+        color: #FFFFFF;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .logo p, .logo a {
+        color: #FFFEFE;
+    }
+
+    .logo img {
+        height: 100%;
+    }
+
+.right-side {
+    background-color: #F9FAFB;
+}
+
+form {
+    background-color: #FFFFFF;
+}
