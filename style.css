@@ -125,3 +125,8 @@ body {
             font-weight: 700;
             font-size: 16px;
         }
+
+        .bottom a, .bottom a:visited {
+            color:#596D48;
+            font-weight: 900;
+        }
