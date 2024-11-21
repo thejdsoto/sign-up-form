@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("/home/jade/repos/sign-up-form/media/halie-west-25xggax4bSA-unsplash.jpg");
+    background-image: url("media/halie-west-25xggax4bSA-unsplash.jpg");
     background-position: center;
     background-size: cover;
     height: 100vh;
